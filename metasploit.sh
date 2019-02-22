@@ -11,7 +11,6 @@ apt install autoconf bison clang coreutils findutils git apr apr-util libffi-dev
 echo "####################################"
 
 echo "Downloading & Extracting"
-
 cd $HOME
 curl -LO https://github.com/rapid7/metasploit-framework/archive/4.16.16.tar.gz
 tar -xf $HOME/4.16.16.tar.gz
